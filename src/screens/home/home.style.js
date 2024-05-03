@@ -6,15 +6,14 @@ export const styles = {
         flex: 0,
         backgroundColor: COLORS.branco,
         alignItems: "center",
-        padding: 20,        
+        padding: 20      
     },
     logo: {
         width: 100,
-        height: 100,
-           
+        height: 100
     },
     dashboard: {
-        width: "100%",
+        width: "90%",
         backgroundColor: COLORS.verde,
         padding: 20,
         borderRadius: 20,
@@ -40,5 +39,10 @@ export const styles = {
         fontSize: FONT_SIZE.md,
         marginTop: 15,
         fontWeight: "bold"
+    },
+    btnaddimage: {
+        width: 50,
+        height: 50,
+       
     }
 }

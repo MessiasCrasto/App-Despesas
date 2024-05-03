@@ -23,5 +23,21 @@ export const styles = {
     },
     containerValor: {
         flex: 4
+    },
+    despesaCategoria:{
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.c_escuro,
+        fontWeight: "bold"        
+    },
+    despesaDescricao:{
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.c_escuro,
+               
+    },
+    despesaValor:{
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.c_escuro,
+        fontWeight: "bold",
+        textAlign: "right"        
     }
 }
