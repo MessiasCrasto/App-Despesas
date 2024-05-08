@@ -1,19 +1,23 @@
 import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 
-export const styles = {
+export const styles = ({
     container: {
-        flex: 0,
+       //flex:1,
         backgroundColor: COLORS.branco,
-        alignItems: "center",
-        padding: 20      
+        alignItems:"center",
+        padding: 20,
     },
-    logo: {
+    containerImg: {
+        alignItems:"center",    
+     },
+     logo: {
         width: 100,
         height: 100
-    },
+     },
+    
     dashboard: {
-        width: "90%",
+        width: "95%",
         backgroundColor: COLORS.verde,
         padding: 20,
         borderRadius: 20,
@@ -40,9 +44,14 @@ export const styles = {
         marginTop: 15,
         fontWeight: "bold"
     },
-    btnaddimage: {
-        width: 50,
-        height: 50,
+    btnadd: {
+        position: "absolute",
+        bottom: 12,
+        
        
+    },
+    btnaddImage: {
+        width: 60,
+        height: 60
     }
-}
+})

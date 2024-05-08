@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/logo.png",
+      "image": "./src/assets/dinheiro.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

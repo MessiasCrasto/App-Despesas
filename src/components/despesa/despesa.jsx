@@ -13,7 +13,9 @@ return <View style={styles.despesa}>
         <Text style={styles.despesaDescricao}>{props.descricao}</Text>
     </View>
     <View style={styles.containerValor}>
-        <Text style={styles.despesaValor}>{props.valor}</Text>
+        <Text style={styles.despesaValor}>R$ {}
+            {props.valor.toLocaleString('pt-BR',{minimumFractionDigits: 2})}
+        </Text>
     </View>
 </View>
 }
